@@ -1,96 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+
         <meta charset="UTF-8">
-        <title> Nissan-GTR </title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <style>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title> BOOTSTRAP </title>
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+              integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-            .top_row { width: 100vw; height: 10vh; background: none;}
-            #bottom { width: 100vw; height: 10vh; background: #e87b07;}
-            .center_row { width: 80vw; height: 200vh; background: rgba(0,0,0,0.95); margin-left: 10vw;}
-            body { width: 100vw; height: 100vh; background-image: url('liberty-walk-lamborghini-aventador-supercar-wallpaper-preview.jpg'); background-size: cover;}
-
-            .btn{
-            background: none;
-            color: white;
-            border: 2px solid white;
-            width: 10vw;
-            height: 5vh;
-            margin: 1vw;
-            cursor: pointer;
-            transition: color 0.4s linear;
-            position: relative;
-        }
-
-        .btn:hover{ color: black; }
-
-        .btn::before{
-            content: "";
-            position: absolute;
-            left: 0;
-            top: 0;
-            width: 100%;
-            height: 100%;
-            background: #e87b07;
-            z-index: -1;
-            transition: transform 0.5s;
-            transform-origin: 0 0;
-            transition-timing-function: cubic-bezier(0.5,1.6,0.4,0.7);
-        }
-        .btn1::before{ transform: scaleX(0); }
-        .btn1:hover::before{ transform: scaleX(1)}
-
-
-
-        </style>
 
     </head>
 
     <body>
 
-        <div class="top_row"> <a href="gtr.html"><button class="btn btn1" style="margin-left: 21vw;" > <strong>Nissan GTR</strong> </button></a> <button class="btn btn1"> <strong>About Us</strong> </button>
-            <button class="btn btn1"> <strong>About Us</strong> </button> <button class="btn btn1"> <strong>About Us</strong> </button> <button class="btn btn1"> <strong>About Us</strong></button> </div>
+        <div class="container-fluid">
 
-        <!--<div style="height: 80vh; background: black; width: 2vw;"> </div>-->
+            <div class="row">
 
-        <div class="center_row">  <br> <center><h1 style="color: white; font-size: 3vw; background: #5c0101;"> <em>NISSAN GT-R</em> </h1></center>
-
-            <a href="photo-1611859266238-4b98091d9d9b.jpg" download><img style="height:20vh; width:20vw; object-fit: cover; margin: 1vw; margin-left: 7vw;" src="photo-1611859266238-4b98091d9d9b.jpg" alt="gtr image" ></a>
-            <a href="download.jpg" download><img style="height:20vh; width:20vw; object-fit: cover; margin: 1vw;" src="download.jpg" alt="gtr image"></a>
-            <a href="QnRbkbg.jpg" download><img style="height:20vh; width:20vw; object-fit: cover; margin: 1vw;" src="QnRbkbg.jpg" alt="gtr image"></a>
-
-            <br>
-            <p style="color: orange; margin-left: 4vw;"> Click on the images to download the images !!</p>
-            <br>
-            <p style="color: white; margin-left: 4vw; margin-right: 4vw; margin-bottom: 4vw; font-size: 2vw; border: 0.1vw solid white; padding: 1vw;"> The Nissan GT-R is a high-performance sports car and grand tourer produced by Nissan that was unveiled in
-                2007.[2][3][4] It is the successor to the Skyline GT-R, a high performance variant of the Nissan Skyline. Although the car is the
-                sixth-generation model to bear the GT-R name,<br><br> the model is no longer part of the Nissan Skyline model lineup since that name is now
-                reserved for Nissan's luxury-sport vehicles. The GT-R shares the Nissan FM platform with the now separate Nissan Skyline luxury car and
-                the Nissan Z-car sports car.<br><br>The GT-R is an entirely new model sharing little with the Skyline GT-R save its signature four round
-                tail lights. Like some later generations of the Skyline GT-R, the GT-R has all-wheel drive with a twin-turbocharged 6-cylinder engine.
-                But the four-wheel-steering HICAS system has been removed and the former <br><br>straight-6 RB26DETT engine has been replaced with a new
-                VR38DETT V6 engine.[7] Because of the GT-R's heritage, the chassis code for the all-new version has been called CBA-R35,[8] or R35 for
-                short (where CBA stands for the emissions standard prefix), carrying on the naming trend from previous Skyline GT-R generations.</p>
-
-            <ul>
-                <li style="color: white; font-size: 2vw; margin-left: 10vw;"> Top Speed : 196 Mph</li>
-                <li style="color: white; font-size: 2vw; margin-left: 10vw;"> Weight : 	1,740 kg (3,840 lb)</li>
-                <li style="color: white; font-size: 2vw; margin-left: 10vw;"> Acceleration : 0–97 km/h (0–60 mph) in 2.5 seconds</li>
-
-            </ul>
-
-            <br>
-            <br>
-            <a href="https://www.caranddriver.com/nissan/gt-r" style="color: orange; font-size: 2vw; margin-left: 10vw;" target="_blank"> More details about beast </a>
-
+                <div class="col-4">
+                    <center><img src="photo-1611859266238-4b98091d9d9b.jpg" alt=""  class="mx-auto d-block"
+                         style="width: 27.33vw; height:50vh; object-fit: cover;"></center>
+                </div>
+                
+                <div class="col-4">
+                    <center><img src="photo-1611859266238-4b98091d9d9b.jpg" alt=""  class="mx-auto d-block"
+                         style="width: 27.33vw; height:50vh; object-fit: cover;"></center>
+                </div>
+                
+                <div class="col-4">
+                    <center><img src="photo-1611859266238-4b98091d9d9b.jpg" alt=""  class="mx-auto d-block"
+                         style="width: 27.33vw; height:50vh; object-fit: cover;"></center>
+                </div>
+                
+            </div>
 
         </div>
 
-        <div id="bottom"> <br><center><p>< <strong>Devoloped by Chamalka Marasinghe</strong>></p></center> </div>
-
     </body>
-
-
-
 </html>
